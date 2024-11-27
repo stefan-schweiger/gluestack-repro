@@ -4,9 +4,17 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"],
-      "@/assets/*": ["../../packages/shared/assets/*", "./assets/*"],
-      "tailwind.config": ["tailwind.config.js"]
+      "@/*": [
+        "./*"
+      ],
+      "@/assets/*": [
+        "../../packages/shared/assets/*",
+        "./assets/*"
+      ],
+      "tailwind.config": [
+        "tailwind.config.js",
+        "./tailwind.config.js"
+      ]
     }
   },
   "include": [
